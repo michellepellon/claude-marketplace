@@ -1,0 +1,12 @@
+{
+  "name": "michellepellon",
+  "description": "Curated Claude Code plugins for software development workflows",
+  "plugins": [
+    {
+      "name": "claude-workbench",
+      "description": "19 skills and 9 commands for Python, JS/TS, SQL, shell scripting, SEO, data visualization, and more",
+      "repository": "michellepellon/claude-workbench",
+      "tags": ["development", "testing", "data", "seo", "workflow"]
+    }
+  ]
+}
