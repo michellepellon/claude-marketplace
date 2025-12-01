@@ -1,25 +1,27 @@
 # claude-marketplace
 
+[![GitHub](https://img.shields.io/badge/GitHub-michellepellon%2Fclaude--marketplace-blue)](https://github.com/michellepellon/claude-marketplace)
+
 A curated collection of [Claude Code](https://claude.ai/code) plugins for software development workflows.
 
 ## Usage
 
-Add this marketplace to Claude Code:
+Add this marketplace to Claude Code (run inside a Claude Code session):
 
-```bash
-claude marketplace add michellepellon/claude-marketplace
+```
+/plugin marketplace add michellepellon/claude-marketplace
 ```
 
 Browse available plugins:
 
-```bash
-claude marketplace search
+```
+/plugin
 ```
 
 Install a plugin:
 
-```bash
-claude plugin install claude-workbench
+```
+/plugin install claude-workbench@claude-marketplace
 ```
 
 ## Available Plugins
@@ -33,7 +35,7 @@ claude plugin install claude-workbench
 To submit a plugin to this marketplace:
 
 1. Fork this repository
-2. Add your plugin to `index.json`:
+2. Add your plugin to `.claude-plugin/marketplace.json`:
    ```json
    {
      "name": "your-plugin-name",
