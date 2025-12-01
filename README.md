@@ -35,22 +35,25 @@ Install a plugin:
 To submit a plugin to this marketplace:
 
 1. Fork this repository
-2. Add your plugin to `.claude-plugin/marketplace.json`:
+2. Add your plugin as a submodule:
+   ```bash
+   git submodule add https://github.com/username/your-plugin.git plugins/your-plugin
+   ```
+3. Register it in `.claude-plugin/marketplace.json`:
    ```json
    {
      "name": "your-plugin-name",
      "description": "Brief description",
-     "source": "username/repo-name",
+     "source": "./plugins/your-plugin",
      "tags": ["relevant", "tags"]
    }
    ```
-3. Open a pull request
+4. Open a pull request
 
 ### Plugin Requirements
 
 - Must have a valid `.claude-plugin/manifest.json`
 - Must include a README with installation instructions
-- Must be publicly accessible on GitHub
 
 ## License
 
