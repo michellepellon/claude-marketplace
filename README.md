@@ -40,7 +40,7 @@ To submit a plugin to this marketplace:
    {
      "name": "your-plugin-name",
      "description": "Brief description",
-     "repository": "username/repo-name",
+     "source": "username/repo-name",
      "tags": ["relevant", "tags"]
    }
    ```
