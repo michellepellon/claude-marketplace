@@ -1,6 +1,6 @@
-# claude-marketplace
+# mpellon-superpowers
 
-[![GitHub](https://img.shields.io/badge/GitHub-michellepellon%2Fclaude--marketplace-blue)](https://github.com/michellepellon/claude-marketplace)
+[![GitHub](https://img.shields.io/badge/GitHub-michellepellon%2Fmpellon--superpowers-blue)](https://github.com/michellepellon/mpellon-superpowers)
 
 A curated collection of [Claude Code](https://claude.ai/code) plugins for software development workflows.
 
@@ -9,7 +9,7 @@ A curated collection of [Claude Code](https://claude.ai/code) plugins for softwa
 Add this marketplace to Claude Code (run inside a Claude Code session):
 
 ```
-/plugin marketplace add michellepellon/claude-marketplace
+/plugin marketplace add michellepellon/mpellon-superpowers
 ```
 
 Browse available plugins:
@@ -21,7 +21,7 @@ Browse available plugins:
 Install a plugin:
 
 ```
-/plugin install claude-workbench@claude-marketplace
+/plugin install claude-workbench@mpellon-superpowers
 ```
 
 ## Available Plugins
